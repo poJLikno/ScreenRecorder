@@ -16,6 +16,10 @@ int wmain(int argc, const wchar_t **argv)
 		SetConsoleCP(1251);
 		SetConsoleOutputCP(1251);
 
+		// COM init
+		HRESULT hr = CoInitializeEx(NULL, COINIT_MULTITHREADED | COINIT_SPEED_OVER_MEMORY);
+		if (FAILED(hr)) throw std::runtime_error("Can't initialize COM");
+
 		Model app_model;
 		UI app_ui;
 
@@ -23,7 +27,15 @@ int wmain(int argc, const wchar_t **argv)
 		Controller::ui = &app_ui;
 		Controller::InitController();
 
+		ShowWindow(app_ui.QueryUIControls()->app_wnd->GetHwnd(), SW_SHOWNORMAL);
+		app_ui.QueryUIControls()->video_codec_quality_edit->SetText(L"0");
+		ShowWindow(app_ui.QueryUIControls()->video_codec_quality_label->GetHwnd(), SW_HIDE);
+		ShowWindow(app_ui.QueryUIControls()->video_codec_quality_edit->GetHwnd(), SW_HIDE);
+
 		app_ui.QueryUIControls()->app_wnd->RunMessageLoop(Controller::AsyncKeyListener);
+
+		// COM release
+		CoUninitialize();
 	}
 	catch (std::wstring& e)
 	{

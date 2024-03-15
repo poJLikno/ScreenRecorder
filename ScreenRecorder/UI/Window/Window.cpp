@@ -38,7 +38,7 @@ Window::Window(const wchar_t *name, bool icon, int x, int y, int width, int heig
     if (!this->hWnd)
         throw std::wstring(L"Can't create window -> Error code: " + std::to_wstring(GetLastError()));
 
-    ShowWindow(this->hWnd, SW_SHOWNORMAL);
+    //ShowWindow(this->hWnd, SW_SHOWNORMAL);
 }
 
 Window::~Window()

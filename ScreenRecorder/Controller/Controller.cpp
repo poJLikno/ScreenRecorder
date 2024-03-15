@@ -149,9 +149,13 @@ LRESULT Controller::WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lPara
 				OnResizeMessage(hWnd, message, wParam, lParam);
 				result = 0;
 			}
-			else if (message == WM_COMMAND)
-			{
-				if (ui != NULL) {
+			else if (message == WM_COMMAND)// STATE_SYSTEM_COLLAPSED
+			{// RI_MOUSE_WHEEL RIDEV_APPKEYS PDC_ORIGIN
+
+				// WM_CUT CF_GDIOBJFIRST MB_DEFBUTTON4 MB_MODEMASK EN_CHANGE
+				std::wcout << HIWORD(wParam) << L" : " << LOWORD(wParam) << L" | " << lParam << L" / " << (LPARAM)ui->QueryUIControls()->video_codec_quality_edit->GetHwnd() << L"\r\n";
+				//if (ui != NULL)
+				{
 					if (ui->QueryUIControls()->video_capture_device_combo_box->WasChanged(&wParam, &lParam))
 					{
 						OnVideoCaptureChangeMessage();

@@ -102,9 +102,9 @@ UI::UI()
 
 	// Default settings
 	// Video codec quality controls
-	ui_controls.video_codec_quality_edit->SetText(L"0");
-	ShowWindow(ui_controls.video_codec_quality_label->GetHwnd(), SW_HIDE);
-	ShowWindow(ui_controls.video_codec_quality_edit->GetHwnd(), SW_HIDE);
+	//ui_controls.video_codec_quality_edit->SetText(L"0");
+	//ShowWindow(ui_controls.video_codec_quality_label->GetHwnd(), SW_HIDE);
+	//ShowWindow(ui_controls.video_codec_quality_edit->GetHwnd(), SW_HIDE);
 
 	// Video
 	ui_controls.video_capture_device_combo_box->SelectItem(0);
