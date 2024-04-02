@@ -1,7 +1,7 @@
 #ifndef WINDOW_H
 #define WINDOW_H
 
-//#pragma comment(linker, "/subsystem:WINDOWS")
+#pragma comment(linker, "/subsystem:WINDOWS")
 #pragma comment(linker, "/entry:wmainCRTStartup")
 
 #include <iostream>

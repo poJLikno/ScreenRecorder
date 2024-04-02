@@ -81,7 +81,7 @@ class UI
 {
 private:
 	const wchar_t *app_name = L"ScreenRecorder";
-	const wchar_t *app_version = L"v0.3 Release";
+	const wchar_t *app_version = L"v0.4 Release";
 
 	UIControls ui_controls = { 0 };
 
