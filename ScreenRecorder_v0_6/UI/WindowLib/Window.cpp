@@ -10,7 +10,7 @@ Window::Window(const wchar_t *name, WndPairValue pos, WndPairValue size, int ico
 
     WNDCLASS wc = { 0 };
     {
-        wc.style = CS_HREDRAW | CS_VREDRAW | CS_OWNDC;
+        wc.style = CS_HREDRAW | CS_VREDRAW | CS_OWNDC | CS_PARENTDC;
         wc.lpfnWndProc = Window::WndProc;
         wc.cbClsExtra = 0;// 1 - Reserve for ability change WndProc
         wc.cbWndExtra = sizeof(LONG_PTR);
