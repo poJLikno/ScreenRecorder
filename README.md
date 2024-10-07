@@ -22,7 +22,7 @@
 4. Select Options -> Start recording or press hotkey (Alt + K)
 
 ## More information ##
-You can find more information in russian language in my [https://docs.google.com/document/d/1Ea2kUurAYHcAV1z9SGlqC5g4yYRGF-RuPgF1ag2xtOQ/edit?usp=drive_link](school project .docx file)
+You can find more information in russian language in my [school project .docx file](https://docs.google.com/document/d/1Ea2kUurAYHcAV1z9SGlqC5g4yYRGF-RuPgF1ag2xtOQ/edit?usp=drive_link)
 
 ## Releases ##
 Coming soon
