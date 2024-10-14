@@ -1,6 +1,6 @@
 # **ScreenRecorder** *(School project)* #
 
-![](https://img.shields.io/badge/DirectShow%20API-C++-blue "")  ![](https://img.shields.io/badge/Developer-poJLikno-green "")
+[![](https://img.shields.io/badge/DirectShow%20API-C++-blue)](https://learn.microsoft.com/ru-ru/windows/win32/directshow/directshow)  [![](https://img.shields.io/badge/Developer-poJLikno-green)](https://github.com/poJLikno)
 
 ### This app supplies opportunity to record video from screen and web-camera by Microsoft DirectShow API. ###
 
