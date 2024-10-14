@@ -22,11 +22,11 @@
 
 ## Recommendations ##
 If you want to have a good experience with the app usage I recommend install *[UScreenCapture](https://www.videohelp.com/software/UScreenCapture)* and *[ffdshow video encoder](https://sourceforge.net/projects/ffdshow-tryout/)*.
-The **UScreenCapture** apply you to capture windows os's screen and change some settings of capture process.
-The **ffdshow video encoder** uses more effective method of video compression, then the result video uses a little space on disk.
+* The **UScreenCapture** apply you to capture windows os's screen and change some settings of capture process.
+* The **ffdshow video encoder** uses more effective method of video compression, then the result video uses a little space on disk.
 
 ## More information ##
 You can find more information in russian language in my *[school project .docx file](https://docs.google.com/document/d/1Ea2kUurAYHcAV1z9SGlqC5g4yYRGF-RuPgF1ag2xtOQ/edit?usp=drive_link)*.
 
 ## Releases ##
-You can get the latest release ***[right here](https://github.com/poJLikno/ScreenRecorder/Releases)***!
+You can get the latest release ***[right here](https://github.com/poJLikno/ScreenRecorder/releases)***!
