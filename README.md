@@ -6,6 +6,8 @@
 
 ![photo](/readme_src/app_photo.jpg)
 
+<img src="blob:https://docs.google.com/a496ac47-d11e-464c-ac06-6173094ccda1" alt="The ScreenRecorder photo" style="height: 351px; width:752px;"/>
+
 ## Features ##
 * Video recording
 * Captured video settings
