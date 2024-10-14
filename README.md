@@ -1,6 +1,6 @@
-# ScreenRecorder (School project) #
+# **ScreenRecorder** *(School project)* #
 
-### This is app supply oppotunity to record video from screen and web-camera by Microsoft DirectShow API. ###
+### This app supplies opportunity to record video from screen and web-camera by Microsoft DirectShow API. ###
 
 ![photo](/readme_src/app_photo.jpg)
 
@@ -20,8 +20,13 @@
 3. Setup settings for video and/or audio captures
 4. Select Options -> Start recording or press hotkey (Alt + K)
 
+## Recommendations ##
+If you want to have a good experience with the app usage I recommend install *[UScreenCapture](https://www.videohelp.com/software/UScreenCapture)* and *[ffdshow video encoder](https://sourceforge.net/projects/ffdshow-tryout/)*.
+The **UScreenCapture** apply you to capture windows os's screen and change some settings of capture process.
+The **ffdshow video encoder** uses more effective method of video compression, then the result video uses a little space on disk.
+
 ## More information ##
-You can find more information in russian language in my [school project .docx file](https://docs.google.com/document/d/1Ea2kUurAYHcAV1z9SGlqC5g4yYRGF-RuPgF1ag2xtOQ/edit?usp=drive_link)
+You can find more information in russian language in my *[school project .docx file](https://docs.google.com/document/d/1Ea2kUurAYHcAV1z9SGlqC5g4yYRGF-RuPgF1ag2xtOQ/edit?usp=drive_link)*.
 
 ## Releases ##
-Coming soon
+You can get the latest release ***[right here](https://github.com/poJLikno/ScreenRecorder/Releases)***!
