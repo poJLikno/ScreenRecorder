@@ -16,8 +16,7 @@
 
 ## How to use ##
 1. Select video and/or audio source
-2. Select codec(s)
-  - setup settings for codec(s)
+2. Select codec(s) (setup settings for codec(s))
 3. Setup settings for video and/or audio captures
 4. Select Options -> Start recording or press hotkey (Alt + K)
 
