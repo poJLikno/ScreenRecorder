@@ -2,7 +2,7 @@
 
 ### This is app supply oppotunity to record video from screen and web-camera by Microsoft DirectShow API. ###
 
-[photo]
+[photo](https://docs.google.com/ee911d9a-3f2c-4b3a-8613-a019d6ad381b)
 
 ## Features ##
 * Video recording
