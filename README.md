@@ -4,9 +4,7 @@
 
 ### This app supplies opportunity to record video from screen and web-camera by Microsoft DirectShow API. ###
 
-![photo](/readme_src/app_photo.jpg)
-
-<img src="blob:https://docs.google.com/a496ac47-d11e-464c-ac06-6173094ccda1" alt="The ScreenRecorder photo" style="height: 351px; width:752px;"/>
+![The ScreenRecorder photo](/readme_src/app_photo.jpg)
 
 ## Features ##
 * Video recording
